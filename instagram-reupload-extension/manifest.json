@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Reupload",
+  "version": "1.0.0",
+  "description": "Reupload Instagram content to TikTok",
+  "permissions": [
+    "identity",
+    "downloads",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "https://api.instagram.com/*",
+    "https://graph.instagram.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
